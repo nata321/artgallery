@@ -1,0 +1,15 @@
+body {
+    font-family: Helvetica sans-serif;
+}
+ul {
+    list-style: none;
+}
+.color-black {
+    color: #000000;
+}
+.color-orange {
+    color: #fec63d;
+}
+.color-white {
+    color: #ffffff;
+}
