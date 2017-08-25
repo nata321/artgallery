@@ -1,12 +1,8 @@
 body {
-    font-family: Helvetica sans-serif;
+   max-width: 1200px;
+   margin: 0 auto;
 }
-/*ul {*/
-/*    list-style: none;*/
-/*}*/
-/*a {*/
-/*    text-decoration: none;*/
-/*}*/
+
 .color-black {
     color: #000000;
 }
@@ -15,4 +11,17 @@ body {
 }
 .color-white {
     color: #ffffff;
+}
+header li,
+article li,
+footer li {
+    display: inline-block;
+}
+@media (max-width: 620px){
+    body{
+    max-width: 620px;
+    }
+    ul, nav, article, div, h1, h2{
+        display: inline-block;
+    }
 }
