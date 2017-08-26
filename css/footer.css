@@ -6,6 +6,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    padding-bottom: 20px;
 }
 footer, nav, ul{
     width: 100%;
@@ -27,19 +28,12 @@ footer ul{
 }
 .facebook {
      background-image: url('../img/facebook.png');
-     background-repeat: no-repeat;
-     background-size: cover;
 }
 .fineartamerica {
      background-image: url('../img/fineart.png');
-     background-repeat: no-repeat;
-     background-size: cover;
-
 }
 .mail {
      background-image: url('../img/email.png');
-     background-repeat: no-repeat;
-     background-size: cover;
 }
 footer p {
     font-size: 30px;

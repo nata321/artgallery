@@ -20,12 +20,70 @@ article li,
 footer li {
     display: inline-block;
 }
+.bg-style {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slideshow-container {
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+}
+.mySlides {
+    display: none;
+}
+.picture {
+    width: 512px;
+    height: 700px;
+    display: inline-block;
+}
+.picture-first {
+    background-image: url('../img/times-square.jpg');
+}
+.picture-second {
+    background-image: url('../img/ny-street.jpg');
+}
+.picture-last {
+    background-image: url('../img/singapore.jpg');
+    width: 600px;
+    height: 377px;
+}
+.fade {
+  animation-duration: 3.5s;
+  animation-name: fade;
+  animation-timing-function: ease-in-out;
+}
 
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
 @media (max-width: 620px){
     body{
-    max-width: 620px;
+        max-width: 620px;
     }
     ul, nav, article, div, h1, h2{
         display: inline-block;
+    }
+    .slideshow-container{
+        max-width: 420px;
+    }
+    .picture {
+        
+        max-width: 420px;
+    }
+    .picture-last {
+       max-width: 420px;
     }
 }
