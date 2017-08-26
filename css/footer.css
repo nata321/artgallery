@@ -1,0 +1,58 @@
+footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+footer, nav, ul{
+    width: 100%;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+}
+.social {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    transition: 0.5s ease-in-out;
+}
+.facebook:hover,
+.fineartamerica:hover,
+.mail:hover {
+    opacity: .7;
+}
+.facebook {
+     background-image: url('../img/facebook.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.fineartamerica {
+     background-image: url('../img/fineart.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+.mail {
+     background-image: url('../img/email.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+footer p {
+    font-size: 30px;
+}
+@media (max-width: 620px) {
+    footer {
+        padding: 30px 0;
+    }
+    .social {
+    width: 70px;
+    height: 70px;
+    }
+    footer p {
+        display: none;
+    }
+}

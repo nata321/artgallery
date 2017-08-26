@@ -1,0 +1,30 @@
+.header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.header a{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #ffffff;
+    transition: 0.5s ease-in-out;
+}
+.header a:hover {
+    color: #fec63d;
+    font-size: 32px;
+}
+
+.header nav{
+    width: 50%;
+}
+.header ul{
+    width:  100%;
+    display: flex;
+    justify-content: space-around;
+}
+.current{
+    color: red;
+}

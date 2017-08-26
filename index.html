@@ -7,41 +7,44 @@
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.jpg">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
     <title>Artgallery</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html" title="home">home</a></li>
-                <li><a href="gallery.html" title="gallery">gallery</a></li>
-                <li><a href="delivery.html" title="delivery">delivery</a></li>
-                <li><a href="contacts.html" title="contacts">contacts</a></li>
-            </ul>
-        </nav>
-    </header>
-    <article>
-        <h1>Good news, everyone!</h1>
-        <h2>I happy invite you in my artgallery!</h2>
-        <div>
-            <button></button>
-             <ul>
-                <li><img src="img/times-square.jpg" alt="Times Square"><a href="gallery.html" title="gallery"></a></li>
-                <li><img src="img/ny-street.jpg" alt="New York Street"><a href="gallery.html" title="gallery"></a></li>
-                <li><img src="img/singapore.jpg" alt="Singapore"><a href="gallery.html" title="gallery"></a></li>
-            </ul>
-            <button></button>
-        </div>
-    </article>
-      <footer>
-        <nav>
-            <p>How you can find me:</p>
-            <ul>
-                <li><a href="https://www.facebook.com/marla.lamar.37" title="facebook">facebook</a></li>
-                <li><a href="https://fineartamerica.com/profiles/natalia-kostikova.html" title="fineartamerica">fineartamerica</a></li>
-                <li><a href="contacts.html" title="mail">mail</a></li>
-            </ul>
-        </nav>
-    </footer>
+    <div class = "wrapper">
+        <header class = "header bg-black color-white">
+            <nav>
+                <ul>
+                    <li><a href="index.html" title="home">Home</a></li>
+                    <li><a href="gallery.html" title="gallery">Gallery</a></li>
+                    <li><a href="delivery.html" title="delivery">Delivery</a></li>
+                    <li><a href="contacts.html" title="contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <h1 class = "color-orange">Good news, everyone!</h1>
+            <h2>I happy invite you in my artgallery!</h2>
+            <div>
+                 <ul>
+                    <li><img src="img/times-square.jpg" alt="Times Square"><a href="gallery.html" title="gallery"></a></li>
+                    <li><img src="img/ny-street.jpg" alt="New York Street"><a href="gallery.html" title="gallery"></a></li>
+                    <li><img src="img/singapore.jpg" alt="Singapore"><a href="gallery.html" title="gallery"></a></li>
+                </ul>
+            </div>
+        </article>
+          <footer class = "bg-black">
+            <p class="color-white">How you can find me:</p>
+            <nav>
+                <ul>
+                    <li><a href="https://www.facebook.com/marla.lamar.37" class = "social facebook" title="facebook"></a></li>
+                    <li><a href="https://fineartamerica.com/profiles/natalia-kostikova.html" class = "social fineartamerica" title="fineartamerica"></a></li>
+                    <li><a href="contacts.html" class = "social mail" title="mail"></a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
 </body>
 </html>
