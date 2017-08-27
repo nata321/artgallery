@@ -39,7 +39,6 @@ article span {
     text-transform: capitalize;
 }
 @media (max-width: 620px) {
-   
     .gallery-box,
     .article {
          max-width: 620px;
