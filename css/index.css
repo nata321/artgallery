@@ -20,6 +20,15 @@ article li,
 footer li {
     display: inline-block;
 }
+article h1{
+    font-size: 35px;
+    text-align: center;
+}
+article h2 {
+    text-align: center;
+	font-size: 30px;
+	margin-bottom: 50px;
+}
 .bg-style {
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,21 +78,24 @@ footer li {
   from {opacity: .4} 
   to {opacity: 1}
 }
-@media (max-width: 620px){
+@media (max-width: 620px) {
     body{
         max-width: 620px;
     }
-    ul, nav, article, div, h1, h2{
+    ul, nav, div {
         display: inline-block;
     }
-    .slideshow-container{
-        max-width: 420px;
-    }
+    .slideshow-container,
     .picture {
-        
-        max-width: 420px;
+        max-width: 619px;
     }
-    .picture-last {
-       max-width: 420px;
+   .picture-first,
+   .picture-second,
+   .picture-last {
+       max-width: 320px;
+   }
+    article h2 {
+    	font-size: 26px;
+    	line-height: 1.3;
     }
 }
