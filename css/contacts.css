@@ -1,0 +1,51 @@
+.contacts-box {
+    display: flex;
+    flex: 1 50%;
+    justify-content: space-around;
+}
+.contacts-photo {
+    box-sizing: border-box;
+    padding: 30px;
+    transition: 0.5s ease-in-out;
+}
+.contacts-input {
+    box-sizing: border-box;
+    width: 400px;
+    height: 50px;
+    padding: 5px;
+    margin: 15px 0;
+}
+.contacts-textarea {
+    box-sizing: border-box;
+    width: 400px;
+    padding: 5px;
+    margin: 15px 0;
+}
+form .yellow-btn {
+    margin-top: 50px;
+}
+form {
+    text-align: center;
+}
+@media (max-width: 620px){
+    .contacts-box {
+         max-width: 620px;
+    }
+    body,
+    article,
+    form {
+         max-width: 620px;
+    }
+    .contacts-box {
+       display: block;
+       width: 100%;
+    }
+    .contacts-photo {
+        display: none;
+    }
+    .contacts-input,
+    .contacts-textarea{
+        width: 300px;
+    }
+
+}

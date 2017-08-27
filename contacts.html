@@ -9,38 +9,40 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contacts.css">
     <title>Artgallery</title>
 </head>
 <body>
-    <header>
-        <nav>
+    <header class = "header bg-black color-white">
+        <nav class="bg-style">
             <ul>
-                <li><a href="index.html" title="home">home</a></li>
-                <li><a href="gallery.html" title="gallery">gallery</a></li>
-                <li><a href="delivery.html" title="delivery">delivery</a></li>
-                <li><a href="contacts.html" title="contacts">contacts</a></li>
+                <li><a href="index.html" title="home">Home</a></li>
+                <li><a href="gallery.html" title="gallery">Gallery</a></li>
+                <li><a href="delivery.html" title="delivery">Delivery</a></li>
+                <li><a href="contacts.html" title="contacts">Contacts</a></li>
             </ul>
         </nav>
     </header>
     <article>
-        <h1>How you can find me:</h1>
-        <img src="img/me.png" alt="me"><br>
-
-        <form method="POST" action="https://formspree.io/https.ka@gmail.com">
-            <p>How you can find me:</p>
-            <label><input type="text" name="user-name" placeholder="Your name" required></label><br>
-            <label><input type="text" name="user-mail" placeholder="Your mail" required></label><br>
-            <label><textarea cols="40" rows="8" name="user-message" placeholder="Your message"></textarea></label><br>
-            <input type="submit" value="Send">
-        </form>
+        <h1></h1>
+        <div class="contacts-box">
+            <div class="contacts-photo"><img src="img/me.png" alt="me"></div><br>
+            <form method="POST" action="https://formspree.io/https.ka@gmail.com">
+                <h2>How you can find me:</h2>
+                <label><input class="contacts-input" type="text" name="user-name" placeholder="Your name" required></label><br>
+                <label><input class="contacts-input" type="text" name="user-mail" placeholder="Your mail" required></label><br>
+                <label><textarea class="contacts-textarea" cols="40" rows="8" name="user-message" placeholder="Your message"></textarea></label><br>
+                <input class="yellow-btn" type="submit" value="Send">
+            </form>
+        </div>
     </article>
-    <footer>
+    <footer class = "bg-black">
+        <p class="color-white">How you can find me:</p>
         <nav>
-            <p>How you can find me:</p>
             <ul>
-                <li><a href="https://www.facebook.com/marla.lamar.37" title="facebook">facebook</a></li>
-                <li><a href="https://fineartamerica.com/profiles/natalia-kostikova.html" title="fineartamerica">fineartamerica</a></li>
-                <li><a href="contacts.html" title="mail">mail</a></li>
+                <li><a href="https://www.facebook.com/marla.lamar.37" class = "social facebook bg-style" title="facebook"></a></li>
+                <li><a href="https://fineartamerica.com/profiles/natalia-kostikova.html" class = "social fineartamerica bg-style" title="fineartamerica"></a></li>
+                <li><a href="contacts.html" class = "social mail bg-style" title="mail"></a></li>
             </ul>
         </nav>
     </footer>
