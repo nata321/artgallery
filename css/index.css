@@ -94,15 +94,15 @@ article h2 {
   to {opacity: 1}
 }
 @media (max-width: 620px) {
-    body{
+    body,
+    article {
         max-width: 620px;
     }
     ul, nav, div {
         display: inline-block;
     }
-    .slideshow-container,
-    .picture {
-        max-width: 619px;
+    .slideshow-container {
+        max-width: 620px;
     }
    .picture-first,
    .picture-second,

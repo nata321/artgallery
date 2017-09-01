@@ -37,6 +37,7 @@ footer ul{
 }
 footer p {
     font-size: 30px;
+    margin-top: 16px;
 }
 @media (max-width: 620px) {
     footer {

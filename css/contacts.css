@@ -31,7 +31,9 @@ form {
     .contacts-box {
          max-width: 620px;
     }
-    body,
+    body{
+        max-width: 620px;
+    }
     article,
     form {
          max-width: 620px;
