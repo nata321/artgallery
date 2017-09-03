@@ -83,12 +83,6 @@ article h2 {
   animation-name: fade;
   animation-timing-function: ease-in-out;
 }
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
